@@ -1,0 +1,62 @@
+<!-- Mahdiyar Sahbaee Ahmadi - 2022 -->
+<!-- github.com/sahbaee -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinesWeeper</title>
+    <link rel="stylesheet" href="./dist/style/style.css">
+    <link rel="stylesheet" href="./dist/style/colorLight.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>MinesWeeper</h1>
+        </header>
+        <!-- mines board -->
+        <div class="gameBoard">
+            <!-- 25 mines -->
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+            <div class="box" state="unset" click_state="ready"></div>
+        </div>
+    </main>
+    <!-- the end screen --default:display(none) -->
+    <div class="end_screen display_none">
+        <h1>Game Over</h1>
+        <!-- reload game button -->
+        <div class="refresh_button"></div>
+    </div>
+    <!-- sfx audio files -->
+    <audio src="assets/sfx/bomb.mp3" id="sfx_1"></audio>
+    <audio src="assets/sfx/gameover.mp3" id="sfx_2"></audio>
+    <script src="dist/script/main.js"></script>
+</body>
+
+</html>

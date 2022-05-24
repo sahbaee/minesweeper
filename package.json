@@ -1,0 +1,20 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "The MinesWeeper game.",
+  "main": "index.html",
+  "repository": "https://github.com/sahbaee/minesweeper",
+  "author": "Mahdiyar Sahbaee Ahmadi <mahdiyar.sahbaee@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@web/dev-server": "^0.1.31",
+    "esbuild": "^0.14.39",
+    "tsc": "^2.0.4",
+    "typescript": "^4.6.4"
+  },
+  "scripts": {
+    "serve": "wds --watch",
+    "build": "node esbuild.config.js"
+  }
+}

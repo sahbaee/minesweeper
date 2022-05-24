@@ -1,0 +1,15 @@
+/* -------------light */
+:root {
+    --color-1: #fff;
+    --color-2: rgb(238, 238, 238);
+    --color-3: rgb(229, 229, 229);
+    --color-4: rgb(167, 167, 167);
+    --num-1:rgb(198, 61, 252);
+    --num-2:rgb(85, 178, 255);
+    --num-3:rgb(0, 90, 12);
+    --endScreen:rgba(0, 0, 0, 0.808);
+    --txt:rgb(29, 29, 29);
+    --exploded_mines:rgb(252, 61, 61);
+    --exploded:rgb(75, 0, 0);
+    --shadow:rgba(115, 127, 133, 0.394);
+}
