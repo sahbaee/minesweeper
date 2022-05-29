@@ -1,9 +1,7 @@
 # Mines Weeper.
-
-* Js/Typescript game.
-
+ 
 ```
-This project is my first `TypeScript` project ;)
+Js/Typescript 2d game.
 ```
 ![This is an video](minesweeper.gif)
 ## Instructions for beginners
